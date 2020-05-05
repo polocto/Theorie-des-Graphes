@@ -1,5 +1,6 @@
 #include "Graph.h"
 #include "Menu.h"
+#include "svgfile.h"
 
 /**Constructeur de menu
 initialise le graph � nullptr*/

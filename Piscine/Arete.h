@@ -2,8 +2,8 @@
 #define ARETE_H_INCLUDED
 
 #include "biblio.h"
-#include "svgfile.h"
 
+class Svgfile;
 class myComparator;
 class Sommet;
 

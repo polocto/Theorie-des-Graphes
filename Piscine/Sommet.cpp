@@ -1,7 +1,7 @@
 #include "Sommet.h"
 #include "Arete.h"
 #include "myComparator.h"
-#include <iomanip>
+#include "svgfile.h"
 
 
 /**DEBUT CONSTRUCTION SOMMET*/
