@@ -222,10 +222,11 @@ void Sommet::k_connexe(int& nombre_chemin,std::set<const Arete*>& arete,std::set
 void Sommet::sauvegarde(std::ofstream&fichier)const
 {
     //ecriture dans le fichier
-    fichier<<"\tindice de centrailite de degre : ("<<m_i_d_nn<<", "<<m_i_d<<"); ";
-    fichier<<"\tindice de vecteur propre : ("<<m_i_vp_nn<<", "<<m_i_vp<<"); ";
-    fichier<<"\tindice de proximite : ("<<m_i_p_nn<<", "<<m_i_p<<"); ";
-    fichier<<"\tindice de centralite d'intermediarite : ("<<m_i_i_nn<<", "<<m_i_d<<"); ";
+    fichier << std::setprecision(10)<<std::fixed;
+    fichier<<"\tindice de centrailite de degre : ("<<m_i_d_nn<<", "<<m_i_d<<");";
+    fichier<<"\tindice de vecteur propre : ("<<m_i_vp_nn<<", "<<m_i_vp<<");";
+    fichier<<"\tindice de proximite : ("<<m_i_p_nn<<", "<<m_i_p<<");";
+    fichier<<"\tindice de centralite d'intermediarite : ("<<m_i_i_nn<<", "<<m_i_d<<");";
 }
 
 
