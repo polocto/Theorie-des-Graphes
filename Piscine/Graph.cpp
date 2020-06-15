@@ -629,7 +629,7 @@ void Graph::flot_entre_deux_point()const
         std::cout<< "saississez le sommet d'arriver : ";
     Sarriver=saisie();
     //saisir les deux point
-    if (Sdepart && Sarriver)
+    if (Sdepart && Sarriver && Sdepart!=Sarriver )
     {
         poid=recherche_de_flot(Sdepart,Sarriver,false);
         std::cout<<"le flot max entre la sation "<<Sdepart->getnom() << " et la station "<<Sarriver->getnom()<<" est egale "<<poid<<std::endl;
