@@ -30,7 +30,7 @@ Graph::Graph(std::ifstream&ifs)
         double x=0,y=0;
         if(!std::getline(ifs,line))
             throw(4);//recupération ligne du fichier
-        std::stringstream iss(line);
+        std::stringstream iss(line);//Permet la décomposition de la ligne
         iss>>verrif;
         if(iss.fail()|| verrif!=(int)i)
             throw(5);
