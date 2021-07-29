@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+#Suppresion des fichier nécessaire à VS Code
+.vscode
+*.exe
+
 #Suppression du partage de la solution et du projet depuis Visula Studio
 *.sln
 *.vcxproj
